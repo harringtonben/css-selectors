@@ -31,6 +31,24 @@ header li {
 	color: blue;
 }
 
-.parent  {
+.parent div h4:first-of-type {
 	background-color: red;
+}
+
+.parent div h4:nth-of-type(2) {
+	background-color: blue;
+}
+
+.grandparent > h4:first-of-type {
+	border: 1px solid black;
+	border-radius: 2px;
+}
+
+.promo {
+	text-decoration: bold;
+	color: gold;
+}
+
+input:read-write {
+	height: 25px;
 }
